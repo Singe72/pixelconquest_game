@@ -15,7 +15,7 @@ class PlayerPixel extends StatelessWidget {
         child: Center(
             child: Text(
           units.toString(),
-          style: const TextStyle(fontSize: 12),
+          style: const TextStyle(fontSize: 10),
         )),
       ),
     );

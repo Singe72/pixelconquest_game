@@ -4,13 +4,15 @@ class Player {
   int units;
   int maxUnits;
   Color color;
-  int cells;
+  int pixels;
   List<int> playerPos;
+  bool isExpanding = false;
+  bool isAttacking = false;
 
   Player(
       {required this.units,
       required this.playerPos,
       required this.maxUnits,
       required this.color,
-      this.cells = 1});
+      this.pixels = 1});
 }
